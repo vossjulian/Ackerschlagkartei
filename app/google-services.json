@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "866895572642",
+    "project_id": "ackerschlagkartei-e6c8b",
+    "storage_bucket": "ackerschlagkartei-e6c8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866895572642:android:4abe27e66596b8b8d971fb",
+        "android_client_info": {
+          "package_name": "de.prog3.ackerschlagkartei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866895572642-irn5kitdeeji0i88anre5p5lmqvdeshg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.prog3.ackerschlagkartei",
+            "certificate_hash": "efcbf0aeff3345f5fbe548806550079802d6d624"
+          }
+        },
+        {
+          "client_id": "866895572642-thg8cqh9r7t2gd89e6d0r94hep11pt2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.prog3.ackerschlagkartei",
+            "certificate_hash": "cbddaac6d81f8a603c3e6eaea6fb6e9b11dbe081"
+          }
+        },
+        {
+          "client_id": "866895572642-7so3dpp0qtf59afsefa8klj6ulf5tivp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBncqmmu4YkhGKyD7kkJbxH_zBk3iTY6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866895572642-7so3dpp0qtf59afsefa8klj6ulf5tivp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

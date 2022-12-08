@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">ASK</string>
+
+    <string name="fragment_sign_in">Sign In</string>
+    <string name="fragment_sign_up">Sign Up</string>
+    <string name="fragment_reset_password">Reset Password</string>
+    <string name="fragment_fields_map">Fields List</string>
+    <string name="fragment_fields_list">Fields Map</string>
+    <string name="fragment_field_add">Add Field</string>
+    <string name="fragment_splash">Loading...</string>
+    <string name="fragment_details">Details</string>
+    <string name="fragment_cultivation">Cultivation</string>
+    <string name="fragment_ground">Ground</string>
+    <string name="fragment_actions">Actions</string>
+    <string name="fragment_info">Info</string>
+    <string name="fragment_documents">Documents</string>
+    <string name="fragment_profile">Profile</string>
+
+
+    <!-- SignInActivity -->
+    <string name="et_email_hint">E-Mail</string>
+    <string name="et_password_hint">Password</string>
+    <string name="btn_sign_in_text">Sign in</string>
+    <string name="btn_open_password_reset_text">Forgot Password?</string>
+    <string name="lb_divider_text">OR</string>
+    <string name="btn_open_sign_up_text">Sign up</string>
+
+    <string name="error_empty_email">E-Mail can not be empty</string>
+    <string name="error_empty_password">Password can not be empty</string>
+    <string name="error_short_password">Password is too short</string>
+    <string name="error_match_password">Passwords do not match</string>
+    <string name="error_sign_in">Sign In failed</string>
+    <string name="error_sign_up">Sign Up failed</string>
+    <string name="error_reset">Reset failed</string>
+
+    <!-- SignUpActivity -->
+    <string name="et_sign_up_password_confirm">Confirm</string>
+    <string name="btn_sign_up_text">Create account</string>
+
+    <!-- FieldsOverviewActivity -->
+    <string name="appbar_title">Fieldoverview</string>
+    <string name="menu_change_view">Change view</string>
+    <string name="menu_open_profile">Profile</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_field">Add</string>
+
+    <!-- ForgotPasswordActivity -->
+    <string name="et_forgot_password_hint">Forgot password</string>
+    <string name="btn_return_to_sign_in">Return to Login</string>
+
+    <!-- FieldsOverviewActivity -->
+
+    <!-- FieldDetailsActivity -->
+    <string name="nav_cultivation">Cultivation</string>
+    <string name="nav_ground">Ground</string>
+    <string name="nav_actions">Actions</string>
+    <string name="nav_info">Info</string>
+    <string name="nav_documents">Documents</string>
+    <string name="temp_language">en</string>
+
+    <!-- AddFieldActivity -->
+    <string name="add_field_title">Choose map points</string>
+    <string name="add_field_description_hint">Description</string>
+    <string name="add_field_confirm_toolbar_title">Create</string>
+    <string name="add_field_reset_title">Reset</string>
+
+    <!-- FieldCultivationFragment -->
+    <string name="dd_previous_crop">Previous Crop</string>
+    <string name="dd_primary_crop">Primary Crop</string>
+    <string name="dd_secondary_crop">Secondary Crop</string>
+    <string name="dd_next_crop">Next Crop</string>
+    <string name="dd_zwf_group">ZWF-Group</string>
+
+    <!-- https://www.deepl.com/de/translator -->
+    <string-array name="previous_primary_next_crop_array">
+        <item>Field bean Whole plant</item>
+        <item>Field grass 3–4 cuts/year (DM)</item>
+        <item>Field grass 5 cuts (DM)</item>
+        <item>Amaranth</item>
+        <item>Medicinal fennel (fruit, drug)</item>
+        <item>Eggplant</item>
+        <item>Valerian (crop roots)</item>
+        <item>Basil</item>
+        <item>Flowering strips sowing year perennial with legumes</item>
+        <item>Flowering strips sowing year perennial without legumes</item>
+        <item>Flowering strips annual with legumes</item>
+        <item>Flowering strips annual without fertilization with legumes</item>
+        <item>Flowering strips annual without fertilization without legumes</item>
+        <item>Flowering strips annual without legumes</item>
+        <item>Flowering strips perennial from. 2nd standing year with legumes</item>
+        <item>Flowering strips perennial from. 2nd year without legumes</item>
+        <item>Cauliflower</item>
+        <item>Savory</item>
+        <item>Borage</item>
+        <item>Fallow grassland with legumes from spring onwards</item>
+        <item>Fallow with leguminous plants from autumn</item>
+        <item>Fallow without legumes from spring onwards</item>
+        <item>Fallow without legumes from fall onwards</item>
+        <item>Malting barley 10% RP</item>
+        <item>Barley 11% RP</item>
+        <item>Nettle (fiber use)</item>
+        <item>Broccoli</item>
+        <item>Buckwheat</item>
+        <item>Buckwheat whole plant summer</item>
+        <item>Bush bean</item>
+        <item>Chicory beet</item>
+        <item>Chinese cabbage</item>
+        <item>Corn-cob mix</item>
+        <item>Permanent fallow</item>
+        <item>Dill, fresh market</item>
+        <item>Dill, industrial</item>
+        <item>Spelt, summer</item>
+        <item>Spelt, winter</item>
+        <item>angelica (medicinal angelica, true angelica)</item>
+        <item>Gentian</item>
+        <item>Peas/beans mixture 50:50</item>
+        <item>Strawberries, spring</item>
+        <item>Strawberries, after harvest</item>
+        <item>Strawberries, planting</item>
+        <item>Strawberries, propagation</item>
+        <item>Sainfoin whole plant</item>
+        <item>Fiber hemp whole plant</item>
+        <item>Lamb\'s lettuce</item>
+        <item>Lamb\'s lettuce, large-leaved</item>
+        <item>Flax (fiber flax) whole plant</item>
+        <item>Lady\'s mantle</item>
+        <item>Early potatoes</item>
+        <item>Forage pea whole plant</item>
+        <item>Fodder cabbage whole plant-summer</item>
+        <item>Fodder rape whole plant summer</item>
+        <item>Fodder beet whole plant-summer</item>
+        <item>Salary beets</item>
+        <item>Goatgrass</item>
+        <item>Mixture >50% legume content, whole plant summer</item>
+        <item>Mixture less than 50% legumes, whole crop summer</item>
+        <item>Silage maize/legume mixture (32% DM) (>50% maize)</item>
+        <item>Silage corn/legume mixture (35% DM) (>50% corn)</item>
+        <item>Silo maize/non-legume mixture (32% dry matter) (>50% maize)</item>
+        <item>Mix of silage corn/non-legumes (35% DM) (>50% corn)</item>
+        <item>Vegetable pea</item>
+        <item>Cereal/legume mixtures</item>
+        <item>Grain mixture-summer</item>
+        <item>Grain mixture-winter</item>
+        <item>GPS winter cereals Barley</item>
+        <item>GPS winter cereals rye</item>
+        <item>GPS winter cereals triticale</item>
+        <item>GPS winter cereals wheat</item>
+        <item>Grass propagation (seed cutting)</item>
+        <item>Green manuring (with legumes) in main crop cultivation</item>
+        <item>Green manure (non-legume) in main crop cultivation</item>
+        <item>Kale</item>
+        <item>Kale, Hd. crop</item>
+        <item>Grassland 1 crop/year 40dt DM</item>
+        <item>Green 2 crops/year 55dt DM</item>
+        <item>Greenland 3 crop/y 80dt DM</item>
+        <item>Greenland 4 crop/y 90dt DM</item>
+        <item>Greenland 5 crop/y 110dt DM</item>
+        <item>Grassland 6 crop/year 120dt DM</item>
+        <item>Grassland only grazing without organic fertilization (55 dt/ha DM)</item>
+        <item>Green rye whole crop summer</item>
+        <item>Cucumber, inserter. Planted</item>
+        <item>Oats, 11% RP</item>
+        <item>Oats, 12% RP</item>
+        <item>Hemp Grains</item>
+        <item>Durum wheat (durum), summer</item>
+        <item>Durum wheat (durum), winter</item>
+        <item>Hybrid summer canola propagation</item>
+        <item>Industrial potatoes</item>
+        <item>Chamomile (True chamomile)</item>
+        <item>Potatoes</item>
+        <item>Kenaf whole plant</item>
+        <item>Chickpeas</item>
+        <item>Clover, alfalfa propagation (seed cutting)</item>
+        <item>Clover grass</item>
+        <item>Clover grass (grass percentage >50%, 3–4 cuttings/year) TM]></item>
+        <item>Clover–grass (grass percentage less = 50%, 3–4 cuttings/year) TM</item>
+        <item>Garlic clove, dry</item>
+        <item>Tuber fennel</item>
+        <item>Swede</item>
+        <item>Kohlrabi</item>
+        <item>Swede (vegetable crop)</item>
+        <item>Coriander</item>
+        <item>Grain corn 10% RP</item>
+        <item>Grain corn 11% RP</item>
+        <item>crambe (oil crambe)</item>
+        <item>Kitchen herbs</item>
+        <item>Pumpkin</item>
+        <item>Short rotation plantation</item>
+        <item>Landsberg batch summer</item>
+        <item>Lavender (true lavender, spike lavender, hybrid lavender)</item>
+        <item>Camelina</item>
+        <item>Lovage/Maggi herb</item>
+        <item>Lentils</item>
+        <item>Dandelion</item>
+        <item>Lupine blue 33% RP</item>
+        <item>Lupine whole plant</item>
+        <item>Alfalfa</item>
+        <item>Alfalfa grass</item>
+        <item>Lucerne grass (grass percentage >50%, 3–4 cuttings/year) TM]></item>
+        <item>Lucerne grass (grass percentage less = 50%, 3–4 cuttings/year) TM</item>
+        <item>Mowing pastures, 20% pasture</item>
+        <item>Mowing pastures, 40% pasture</item>
+        <item>Mowing pastures, 60% pasture</item>
+        <item>Mowing pastures, 80% grazing</item>
+        <item>Turnips (with foliage)</item>
+        <item>Mallow (wild mallow)</item>
+        <item>Swiss chard</item>
+        <item>Milk thistle</item>
+        <item>Mass beets</item>
+        <item>Horseradish</item>
+        <item>Melde</item>
+        <item>Lemon balm</item>
+        <item>Miscanthus whole plant</item>
+        <item>Poppy (opium poppy, baking poppy)</item>
+        <item>Carrot, bunch</item>
+        <item>Carrots, industrial</item>
+        <item>Carrots, washing</item>
+        <item>Oil flax</item>
+        <item>Oil radish</item>
+        <item>Oil radish whole plant somer</item>
+        <item>Peppers</item>
+        <item>Parsnip</item>
+        <item>Parsley, 1-cut use</item>
+        <item>Parsley, leaf, to 1st cutting</item>
+        <item>Parsley, leaf, last cut</item>
+        <item>Parsley, after one cut</item>
+        <item>Parsley, root</item>
+        <item>Peppermint (non-flowering herb)</item>
+        <item>Seed potato</item>
+        <item>Phacelia whole plant summer</item>
+        <item>Phacelia propagation</item>
+        <item>Leek</item>
+        <item>Radish</item>
+        <item>Rapeseed 23% RP</item>
+        <item>Rice Quinoa</item>
+        <item>Radish, bunch</item>
+        <item>Radish, German</item>
+        <item>Radish, Japanese</item>
+        <item>Rhubarb 1st standing year</item>
+        <item>Rhubarb 2nd standing year sprouting</item>
+        <item>Rhubarb 2nd year after harvest</item>
+        <item>Rhubarb 3rd crop year budding</item>
+        <item>Rhubarb 3rd year after harvest</item>
+        <item>Rhubarb 4th year bud break</item>
+        <item>Rhubarb 4th year after harvest</item>
+        <item>Marigold (flowering herb)</item>
+        <item>Marigold (flower)</item>
+        <item>Panicle millet</item>
+        <item>Cattail grass (energy use) 20% DM</item>
+        <item>Rosemary</item>
+        <item>Red beets</item>
+        <item>Red beets, baby bed</item>
+        <item>Red beets, bunch</item>
+        <item>Red clover/alfalfa in pure culture (DM)</item>
+        <item>Red cabbage</item>
+        <item>Beet seed propagation</item>
+        <item>Arugula (lettuce), fine crop</item>
+        <item>Arugula (lettuce), coarse crop</item>
+        <item>Lettuce, baby leaf Lettuce</item>
+        <item>Lettuce, leaf, green</item>
+        <item>Lettuce, leaf, red</item>
+        <item>Lettuce, ice</item>
+        <item>Lettuce, endive, frisée</item>
+        <item>Lettuce, endive, smooth-leaved</item>
+        <item>Lettuce, head</item>
+        <item>Lettuce, radicchio</item>
+        <item>Lettuce, Romaine</item>
+        <item>Lettuce, Romaine, Heart, Herb</item>
+        <item>lettuce, romaine, hearts</item>
+        <item>Lettuce, various types</item>
+        <item>Sage (kitchen/leaf sage)</item>
+        <item>Yarrow (Yellow Yarrow)</item>
+        <item>Chives, f. Drift</item>
+        <item>Chives, sown to 1-cut</item>
+        <item>Chives, sown, 1-cut use</item>
+        <item>Chives, last cutting</item>
+        <item>Chives, after one cutting</item>
+        <item>Black salsify</item>
+        <item>Celery, bunch</item>
+        <item>Celery, tuberous</item>
+        <item>Celery, stalk</item>
+        <item>Mustard</item>
+        <item>Mustard whole plant summer</item>
+        <item>Serradella whole plant</item>
+        <item>Serradella propagation</item>
+        <item>Sida virginia mallow</item>
+        <item>Silage maize 28% DM</item>
+        <item>Silage maize 32% DM</item>
+        <item>Silage maize 35% DM</item>
+        <item>Silphia</item>
+        <item>Soybean 32% RP</item>
+        <item>Summer field bean</item>
+        <item>Summer emmer</item>
+        <item>Summer pea</item>
+        <item>Summer feed barley 12% RP</item>
+        <item>Spring feed barley 13% RP</item>
+        <item>Summer cereals whole crop</item>
+        <item>Summer canola</item>
+        <item>Summer rye</item>
+        <item>Spring turnip</item>
+        <item>Spring turnip whole plant</item>
+        <item>Summer triticale</item>
+        <item>Spring wheat</item>
+        <item>Sunflower whole plant summer</item>
+        <item>Sunflower 20% RP</item>
+        <item>Other annual grain legumes Whole plant</item>
+        <item>Asparagus 1st standing year</item>
+        <item>Asparagus 2nd year</item>
+        <item>Asparagus 3rd year</item>
+        <item>Asparagus from 4th year</item>
+        <item>Table potatoes</item>
+        <item>Spinach, leaf, FM, baby</item>
+        <item>Spinach, leaf, standard</item>
+        <item>Spinach, minced, standard</item>
+        <item>Runner bean</item>
+        <item>Starch potatoes</item>
+        <item>Perennial knotweed whole plant</item>
+        <item>set-aside 20 years</item>
+        <item>Sudan grass whole plant</item>
+        <item>Sweet potato</item>
+        <item>Szarvarsi/giant wheat grass whole plant summer</item>
+        <item>Tobacco</item>
+        <item>Teltower turnip (autumn cultivation)</item>
+        <item>Jerusalem artichoke</item>
+        <item>Jerusalem artichoke (cabbage)</item>
+        <item>Verbena (true verbena)</item>
+        <item>Pasture extensive</item>
+        <item>Pasture intensive</item>
+        <item>White cabbage, fresh, slow</item>
+        <item>White cabbage, fresh, medium</item>
+        <item>White cabbage, fresh, fast</item>
+        <item>White cabbage, Ind., medium</item>
+        <item>white cabbage, Ind., fast</item>
+        <item>Vetch</item>
+        <item>Vetch whole plant</item>
+        <item>Vetch Rye whole plant summer</item>
+        <item>Winter field bean</item>
+        <item>Winter malting barley 11 % RP</item>
+        <item>Winter meslin/ -sown grain</item>
+        <item>Winter pea</item>
+        <item>Winter barley, 12% RP</item>
+        <item>Winter barley, 13% RP</item>
+        <item>Winter cereals whole crop (barley) / legume mixtures (>50% cereals)</item>
+        <item>Winter cereals whole crop (rye) / legume mixtures (>50% cereals)</item>
+        <item>Winter cereals whole crop (triticale) / legume mixture (>50% cereals)</item>
+        <item>Winter cereals whole crop (wheat) / legume mixture (>50% cereals)</item>
+        <item>Winter oats</item>
+        <item>Winter oilseed rape propagation</item>
+        <item>Winter rye, 11% RP</item>
+        <item>Winter rye, 12% RP</item>
+        <item>Winter turnip</item>
+        <item>Winter turnip whole plant</item>
+        <item>Winter turnip propagation</item>
+        <item>Winter triticale, 12% RP</item>
+        <item>Winter triticale, 13% RP</item>
+        <item>Winter wheat A/B 13–14% RP</item>
+        <item>Winter wheat C, up to 12% RP</item>
+        <item>Winter wheat E > 16% RP</item>
+        <item>Winter wheat E, 14–16% RP</item>
+        <item>Winter wheat, A/B 12–13% RP</item>
+        <item>Savoy cabbage</item>
+        <item>Zucchini</item>
+        <item>Sugar millet (sorghum) Whole plant</item>
+        <item>Sugar Loaf (Lettuce)</item>
+        <item>Sweet corn</item>
+        <item>Sugar melon</item>
+        <item>Sugar beet</item>
+        <item>Onion, bunch</item>
+        <item>Onions, dry</item>
+    </string-array>
+
+    <string-array name="secondary_crop_array">
+        <item>Cultivated grass 1–2 uses</item>
+        <item>Tillage grass, autumn sowing (DM)</item>
+        <item>Strawberries, after harvest</item>
+        <item>Fiber hemp, fall seeded whole plant</item>
+        <item>Forage intercrop second crop > 75% legumes</item>
+        <item>Fodder intercrop second crop up to 30% legumes</item>
+        <item>Forage intercrop second crop up to 31–75% legumes</item>
+        <item>Forage intercrop second crop without legumes</item>
+        <item>Green/forage rye (second crop)</item>
+        <item>Corn as a second crop</item>
+        <item>Summer barley second crop</item>
+        <item>Summer cereal second crop GPS</item>
+        <item>Sunflower GPS 18% DM (second crop)</item>
+        <item>Sudangrass second crop</item>
+        <item>Sugar millet GP 20% DM (second crop)</item>
+    </string-array>
+
+    <string-array name="zwf_group_array">
+        <item>other catch crops with use</item>
+        <item>forage legumes with use</item>
+        <item>legume, frozen off</item>
+        <item>Legumes, unfrozen - incorporated in spring</item>
+        <item>Legumes, not frozen off - incorporated in fall</item>
+        <item>Non-legumes, frozen off</item>
+        <item>Non-legumes, unfrozen - incorporated in spring</item>
+        <item>Non-legume, unfrozen - incorporated in fall</item>
+    </string-array>
+
+    <!-- FieldGroundFragment -->
+    <string name="dd_ground">Ground</string>
+    <string name="dd_bkr">Floor Climate Room</string>
+    <string name="et_humus">Humus</string>
+    <string name="et_ph_value">PH-Value</string>
+    <string name="et_phosphorus">Phosphorus</string>
+    <string name="et_potassium">Potassium</string>
+    <string name="et_magnesium">Magnesium</string>
+    <string name="et_analysis_date">Analysis Date</string>
+
+    <string-array name="ground_type_array">
+        <item>Sand</item>
+        <item>lehmiger Sand</item>
+        <item>Schluff</item>
+        <item>Hochmoor</item>
+        <item>Ton</item>
+    </string-array>
+
+    <string-array name="bkr_array">
+        <item>9</item>
+        <item>11</item>
+        <item>46</item>
+        <item>48</item>
+        <item>51</item>
+    </string-array>
+
+    <!-- FieldActionsFragment -->
+    <string name="soil_cultivation">Soil cultivation</string>
+    <string name="sowing">Sowing</string>
+    <string name="fertilization">Fertilization</string>
+    <string name="plant_protection">Plant protection</string>
+    <string name="harvest">Harvest</string>
+    <string name="action_category">Category</string>
+    <string name="action">Action</string>
+    <string name="add_action_button">Add Action</string>
+    <string name="cancel_action_button">Cancel</string>
+    <string name="action_date">Action date</string>
+
+    <string-array name="actions_array">
+        <item>Soil cultivation</item>
+        <item>Sowing</item>
+        <item>Fertilization</item>
+        <item>Plant protection</item>
+        <item>Harvest</item>
+    </string-array>
+
+    <string-array name="soil_cultivation_array">
+        <item>Stubble turning</item>
+        <item>Disc harrow</item>
+        <item>Cultivator</item>
+        <item>Meadow roller</item>
+        <item>Sobbel machining</item>
+    </string-array>
+
+    <string-array name="sowing_array">
+        <item>Adreo Reseeding</item>
+        <item>Reseeding mixture</item>
+        <item>RGT Reform</item>
+        <item>Bender</item>
+        <item>Quadriga</item>
+    </string-array>
+
+    <string-array name="fertilization_array">
+        <item>40er Kali</item>
+        <item>AHL</item>
+        <item>Ammonium nitrate</item>
+        <item>Epsom salt</item>
+        <item>Carbolime 45</item>
+    </string-array>
+
+    <string-array name="plant_protection_array">
+        <item>Accurate</item>
+        <item>Aclon 600</item>
+        <item>ATR Slug pellets</item>
+        <item>Bayer Garden weed free</item>
+        <item>Agro Stalk Strengthener</item>
+    </string-array>
+
+    <string-array name="harvest_array">
+        <item>Silage corn</item>
+        <item>Summer feed barley</item>
+        <item>Winter wheat</item>
+        <item>Rapeseed</item>
+        <item>Field grass</item>
+    </string-array>
+
+    <!-- FieldInfoFragment -->
+    <string name="et_description">Description</string>
+    <string name="et_area">Area</string>
+    <string name="et_area_suffix">ha</string>
+    <string name="cb_water_protection_area">Water Protection Area</string>
+    <string name="cb_red_area">Red Area</string>
+    <string name="cb_phosphate_sensitive_area">Phosphate Sensitive Area</string>
+    <string name="cb_visible">Visibility on Map</string>
+    <string name="btn_delete_field">Delete field</string>
+    <string name="confirm_delete">Confirm delete</string>
+    <string name="confirm_delete_yes">Yes</string>
+    <string name="confirm_delete_no">No</string>
+
+    <!-- FieldImages -->
+    <string name="btn_add_image">Take photo</string>
+    <string name="btn_attach_doc">Attach Document</string>
+
+    <!-- FieldAddFragment -->
+    <string name="error_description_empty">Description cannot be empty</string>
+    <string name="error_positions_empty">Positions cannot be empty</string>
+
+    <!-- ProfileFragment -->
+    <string name="sign_out_btn">Sign Out</string>
+
+</resources>

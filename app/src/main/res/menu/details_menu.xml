@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fieldCultivationFragment"
+        android:icon="@drawable/ic_baseline_local_florist_42"
+        android:title="@string/nav_cultivation" />
+    <item
+        android:id="@+id/fieldGroundFragment"
+        android:icon="@drawable/ic_baseline_bug_report_24"
+        android:title="@string/nav_ground" />
+    <item
+        android:id="@+id/fieldActionsCategoryFragment"
+        android:icon="@drawable/ic_baseline_agriculture_24"
+        android:title="@string/nav_actions" />
+    <item
+        android:id="@+id/fieldInfoFragment"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/nav_info" />
+    <item
+        android:id="@+id/fieldDocumentsFragment"
+        android:icon="@drawable/ic_baseline_folder_24"
+        android:title="@string/nav_documents" />
+
+</menu>

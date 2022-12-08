@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_nav"
+    app:startDestination="@id/fieldCultivationFragment">
+
+    <fragment
+        android:id="@+id/fieldCultivationFragment"
+        android:name="de.prog3.ackerschlagkartei.ui.views.fragments.FieldCultivationFragment"
+        android:label="@string/fragment_cultivation"
+        tools:layout="@layout/fragment_field_cultivation" />
+    <fragment
+        android:id="@+id/fieldActionsFragment"
+        android:name="de.prog3.ackerschlagkartei.ui.views.fragments.FieldActionsFragment"
+        tools:layout="@layout/fragment_field_actions"
+        android:label="fragment_field_actions" />
+    <fragment
+        android:id="@+id/fieldInfoFragment"
+        android:name="de.prog3.ackerschlagkartei.ui.views.fragments.FieldInfoFragment"
+        android:label="@string/fragment_info"
+        tools:layout="@layout/fragment_field_info" >
+        <action
+            android:id="@+id/action_fieldInfoFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/fieldGroundFragment"
+        android:name="de.prog3.ackerschlagkartei.ui.views.fragments.FieldGroundFragment"
+        android:label="@string/fragment_ground"
+        tools:layout="@layout/fragment_field_ground" />
+    <fragment
+        android:id="@+id/fieldDocumentsFragment"
+        android:name="de.prog3.ackerschlagkartei.ui.views.fragments.FieldDocumentsFragment"
+        android:label="@string/fragment_documents"
+        tools:layout="@layout/fragment_field_documents"/>
+    <fragment
+        android:id="@+id/fieldActionsCategoryFragment"
+        android:name="de.prog3.ackerschlagkartei.ui.views.fragments.FieldActionsCategoryFragment"
+        android:label="@string/fragment_actions"
+        tools:layout="@layout/fragment_field_actions_category">
+        <action
+            android:id="@+id/action_fieldActionsCategoryFragment_to_fieldActionsFragment"
+            app:destination="@id/fieldActionsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="de.prog3.ackerschlagkartei.ui.views.activities.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
